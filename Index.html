@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 align="center">List of Students</h1>
+
+<p id="demo" align="center"></p>
+
+<script>
+var s = ["Vipul Sharma","Dhruva Sharma","Nitish Sharma","Abhishek Tyagi","RadheShyam","Ashish","Netrik","Kannav","Naman"];
+var text = "";
+var i;
+for (i = 0; i < s.length; i++) {
+    text += i+1+". "+s[i] + "<br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
